@@ -1,0 +1,22 @@
+ body {
+ 	background: #cef5b6;
+ }
+
+ .drop-zone {
+ 	height: 350px;
+ 	width: 427px;
+ 	border: 1px solid green;
+ 	margin: 0 auto;
+	position: relative;
+ }
+
+ .draggable-element {
+ 	height: 50px;
+ 	width: 50px;
+ 	background: #89b254;
+ 	border-radius: 50%;
+	position: absolute;
+	left: 0;
+	top:0;
+	transition: 0.5s linear;
+ }
